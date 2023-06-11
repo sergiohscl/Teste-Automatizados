@@ -14,6 +14,7 @@ pip install pytest
 
 # rodando pytest
 pytest
+
 pytest -v -m (nome da marcação)
 
 # exibe o print que estiver na função teste.
