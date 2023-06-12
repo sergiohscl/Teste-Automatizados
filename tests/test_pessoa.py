@@ -64,11 +64,11 @@ class TestPessoa(unittest.TestCase):
             self.assertFalse(self.p1.dados_obtidos)
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main(verbosity=2) # verbose saída detalhada
 
 """ 
 Pelo que entendi, isso é para determinar o código que é 
 executado apenas quando o script é executado 
 diretamente/independentemente, não como um módulo 
 dentro de outro script.
- """
+"""
